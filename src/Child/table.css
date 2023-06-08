@@ -1,0 +1,57 @@
+.user {
+  overflow: hidden;
+}
+.text-email {
+  transition: 0.3s ease;
+}
+.text-call {
+  transition: 0.3s ease;
+}
+.user-card:hover .text-email {
+  background-color: #599aadb9;
+  border-radius: 3px;
+  color: white;
+}
+.text-email:hover {
+  background-color: #435694d7 !important;
+}
+.user-card:hover .text-call {
+  background-color: #59ad7fb9;
+  border-radius: 3px;
+  color: white;
+}
+.text-call:hover {
+  background-color: #418f47de !important;
+}
+.action {
+  opacity: 0;
+  transform: translateX(10px);
+  transition: 1s ease-in-out;
+}
+.user:hover .action {
+  transform: translateX(0);
+  opacity: 1;
+  transition: 0.5s ease-out;
+}
+.scroll::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  display: none;
+}
+.send-icons {
+  transform: translateX(0);
+  transition: 0.5s ease-in-out;
+}
+.btn-send:hover .send-icons {
+  transform: translateX(2px) translateY(-2px) rotate(-20deg);
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #EDF9FF;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #C1EAFD, #FFB2B8, #bef5f0de);
+}

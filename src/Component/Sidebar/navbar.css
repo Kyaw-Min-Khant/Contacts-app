@@ -1,0 +1,7 @@
+.nav-burger:hover{
+   background-color: #dfdfdf;
+}
+
+input::placeholder{
+   font-family: monospace;
+}
